@@ -17,7 +17,7 @@ def update_cold_storage():
 st.title("🍅 Tomato Cold Storage Temperature Control 🍅")
 
 # Display current temperature
-st.subheader("Set Temperature")
+st.subheader("SET TEMPERATURE")
 st.markdown(f"### 🍅 {st.session_state.temperature}°C 🍅")
 
 # Temperature adjustment buttons
@@ -36,7 +36,7 @@ with col2:
             st.warning("It is not an ideal temperature for tomatoes 🍅")
 
 # Cold Storage Temperature
-st.subheader("Cold Storage Temperature")
+st.subheader("CURRENT COLD STORAGE TEMPERATURE.")
 st.markdown(f"### ❄️ {st.session_state.cold_storage_temp}°C ❄️")
 
 # Auto update cold storage temperature every 3 seconds
